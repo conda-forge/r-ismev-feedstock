@@ -1,11 +1,11 @@
-About r-ismev
-=============
+About r-ismev-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ismev-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.ral.ucar.edu/~ericg/softextreme.php
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ismev-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions to support the computations carried out in `An Introduction to Statistical Modeling of Extreme Values' by Stuart Coles. The functions may be divided into the following  groups; maxima/minima, order statistics, peaks over thresholds and point processes.  
 
