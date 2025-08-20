@@ -1,4 +1,4 @@
-{% set version = '1.42' %}
+{% set version = "1.43" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ismev_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ismev/ismev_{{ version }}.tar.gz
-  sha256: 0d57fbeca83bd478e84fcff795967d51d8448c629abe7adc6c4c18c7fb8bf1a5
+  sha256: b2b7ddaed7994a4efd92a215ba90da7bdb63ccdcc3ebd26ffd4f476211e9c336
 
 build:
   noarch: generic
-  number: 1005
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -36,10 +36,7 @@ test:
 about:
   home: http://www.ral.ucar.edu/~ericg/softextreme.php
   license: GPL (>= 2)
-  summary: 'Functions to support the computations carried out in `An Introduction to Statistical
-    Modeling of Extreme Values'' by Stuart Coles. The functions may be divided into
-    the following  groups; maxima/minima, order statistics, peaks over thresholds and
-    point processes.  '
+  summary: 'Functions to support the computations carried out in `An Introduction to Statistical Modeling of Extreme Values'' by Stuart Coles. The functions may be divided into the following  groups; maxima/minima, order statistics, peaks over thresholds and point processes.  '
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
